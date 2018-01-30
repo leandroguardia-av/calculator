@@ -1,0 +1,29 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Numeric processing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandroguardia-av/calculator.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "docker",
+    "jenkins"
+  ],
+  "author": "Leandro Guardia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandroguardia-av/calculator/issues"
+  },
+  "homepage": "https://github.com/leandroguardia-av/calculator#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11"
+  }
+}
