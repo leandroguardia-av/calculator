@@ -1,0 +1,13 @@
+html
+	head
+		title= title
+	body
+		h1 Welcome to the Calculator
+		div
+		p Insert two numbers
+		form(action="add" method="POST")
+			input(type="number" name="a" required)
+			input(type="number" name="b" required)
+			button Add!
+		div#result
+			p= result
