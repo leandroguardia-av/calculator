@@ -1,5 +1,9 @@
+function isNumber(n) {
+	return typeof n === 'number';
+}
+
 function add(a, b) {
-	if (typeof a === 'number' && typeof b === 'number') {
+	if (isNumber(a) && isNumber(b)) {
 		return a + b;
 	} else {
 		throw "Input is not a number";

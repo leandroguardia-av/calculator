@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');		// Logs HTTP Requests in the server console
 const app = express();
 
-const add = require('../app/calculator');
+const add = require('./app/calculator');
 
 /* ============== SETUP ============== */
 
