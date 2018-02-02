@@ -24,7 +24,7 @@ app.post('/add', (req, res) => {
 	body = req.body;
 	let a = Number(body.a);
 	let b = Number(body.b);
-	sum = "The result is: " + add(a, b);
+	sum = add(a, b);
 	res.render('index', { result: sum });
 })
 

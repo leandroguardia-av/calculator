@@ -10,4 +10,5 @@ html
 			input(type="number" name="b" required)
 			button Add!
 		div#result
-			p= result
+			if result
+				p The result is #{result}
